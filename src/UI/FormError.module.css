@@ -1,0 +1,30 @@
+.errorMessage {
+  font-size: 0.6rem;
+  margin: 0rem 0.4rem 0rem;
+  font-style: italic;
+  text-align: right;
+}
+.invalid {
+  color: red;
+}
+.valid {
+  color: #05c964;
+}
+
+@media screen and (max-width: 600px) {
+  .errorMessage {
+    font-size: 0.55rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .errorMessage {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .errorMessage {
+    font-size: 0.4rem;
+  }
+}

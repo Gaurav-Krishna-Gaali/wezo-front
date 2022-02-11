@@ -1,0 +1,21 @@
+.feed {
+  display: grid;
+  grid-template-columns: 1fr 600px 1fr;
+  grid-column-gap: 8px;
+  /* background-color: #1d1d1d; */
+}
+
+.posts {
+  /* background-color: #353535; */
+}
+
+.navbar {
+  /* background-color: green; */
+  background-color: #1d1d1d;
+  /* padding-right: 10px; */
+  /* justify-self: flex-end; */
+  /* width: 100%; */
+  /* max-width: 100%; */
+  grid-column-start: 1;
+  grid-column-end: 2;
+}

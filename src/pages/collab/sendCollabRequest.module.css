@@ -1,0 +1,128 @@
+.container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+}
+.card {
+  padding: 0.5rem;
+
+  max-width: 700px;
+  width: 700px;
+  max-height: 80vh;
+}
+.heading {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-end; */
+  /* background-color: rosybrown; */
+}
+.headingH3 {
+  align-self: center;
+  color: #a9a9a9;
+  font-family: "HelvaLight";
+  font-weight: normal;
+  /* display: inline; */
+}
+.closeIcon {
+  /* display: inline; */
+  /* margin: 10px; */
+  margin-left: auto;
+  background-color: #656565;
+  height: 1.3em;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.closeIcon:hover {
+  background-color: #3f3f3f;
+}
+.collabTextArea {
+  width: 100%;
+  resize: none;
+  background-color: transparent;
+  color: #a9a9a9;
+  border: 2px solid #2ba272;
+  border-radius: 4px;
+  padding: 4px;
+  /* margin: 10px 0; */
+}
+.collabTextArea:focus {
+  outline: none;
+}
+
+.attachProject {
+  /* background-color: aqua; */
+  /* padding: 4px 0; */
+  display: flex;
+}
+.label {
+  align-self: center;
+  font-size: 1rem;
+}
+.paperClip {
+  align-self: center;
+  margin-left: 3px;
+  height: 1em;
+  transform: rotate(30deg);
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.scrollable {
+  /* overflow-y: auto; */
+  /* max-height: 70vh; */
+  padding-right: 10px;
+  /* height: 100px; */
+  /* max-height: 50%; */
+  /* background-color: turquoise; */
+
+  overflow-y: auto;
+  overflow-y: auto;
+  max-height: 40vh;
+}
+
+.btn {
+  font-size: 1rem;
+}
+.projectItem {
+  margin: 10px 0px;
+  color: #a9a9a9;
+  text-transform: capitalize;
+  /* background-color: slategray; */
+  border: solid 1px #656565;
+  padding: 10px 4px;
+  cursor: pointer;
+}
+
+/* .projectItem:hover {
+  border-color: #2ba272;
+  cursor: pointer;
+} */
+
+.selected {
+  border: solid #097e4f 2px;
+  /* background-color: red; */
+}
+
+.textareaContainer {
+  position: relative;
+  padding-bottom: 10px;
+  /* background-color: red; */
+}
+.count {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-right: 7px;
+  margin-bottom: 7px;
+  padding-bottom: inherit;
+  font-size: 0.75em;
+}

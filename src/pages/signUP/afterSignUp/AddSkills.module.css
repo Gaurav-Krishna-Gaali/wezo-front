@@ -1,0 +1,277 @@
+.logo {
+  width: 3vw;
+}
+
+.card {
+  width: 50vw;
+  max-width: 50vw;
+  text-align: center;
+  overflow-y: auto;
+}
+.heading {
+  font-family: "HelvaBold";
+  font-size: 3vw;
+  text-align: left;
+  color: #3f3f3f;
+  margin-bottom: 5px;
+}
+.HeadingDark {
+  color: #fefefe;
+}
+
+.subHeading {
+  font-family: "HelvaLight";
+  font-size: 1.5vw;
+  text-align: left;
+  margin-top: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.skills {
+  margin-top: 0.1rem;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 1vw;
+  padding-bottom: 0.2rem;
+
+  width: 100%;
+  border: solid 1.5px #2ba272;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+.skills:focus-visible {
+  outline: none;
+}
+
+.content {
+  position: relative;
+}
+.search {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 0.4rem;
+  margin-right: 0.2rem;
+  width: 0.8rem;
+}
+
+.suggestions {
+  border: solid 1.5px #2ba272;
+  border-top: none;
+  list-style: none;
+  font-size: 0.7rem;
+}
+
+.suggestions li {
+  padding: 1vw;
+}
+.suggestions li:hover {
+  background-color: #656565;
+  color: #fefefe;
+  cursor: pointer;
+}
+
+.master {
+  display: flex;
+
+  align-content: center;
+}
+
+.searchBox {
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+.addedSkills {
+  background-color: #2ba272;
+  color: #fefefe;
+  border-radius: 1vh;
+
+  display: inline-block;
+  padding: 1vh;
+
+  margin: 1vh;
+  margin-left: 0;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+
+.skillContent {
+  text-align: left;
+  font-family: inherit;
+  margin-top: 2rem;
+}
+.skillContainer {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: inherit;
+}
+
+.hide {
+  vertical-align: middle;
+  margin-left: 1vw;
+  width: 3vh;
+  cursor: pointer;
+}
+
+.addThisgoogle {
+  background-color: #656565;
+  color: #fefefe;
+  cursor: pointer;
+}
+
+.skillsDark {
+  background-color: #1d1d1d;
+  color: #fefefe;
+}
+.button {
+  background-color: #fefefe;
+  color: #2ba272;
+}
+.dashedLine {
+  margin-top: 0.1vh;
+  border-top: 1px solid #656565;
+  background-color: #1d1d1d;
+}
+
+.link {
+  font-size: 0.7rem;
+  text-decoration: none;
+  display: inline;
+  color: #2ba272;
+  font-weight: bold;
+}
+.buttonNotDark {
+  color: #fefefe;
+  background-color: #2ba272;
+}
+
+/* media queries */
+@media screen and (max-width: 900px) {
+  .card {
+    width: 60vw;
+    max-width: 60vw;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .card {
+    width: 70vw;
+    max-width: 70vw;
+  }
+  .button {
+    padding: 0.5rem;
+  }
+  .searchBox {
+    margin-bottom: 1.5rem;
+  }
+  .link {
+    font-size: 0.6rem;
+  }
+  .skills {
+    font-size: 0.8rem;
+  }
+  .addedSkills {
+    font-size: 0.8rem;
+  }
+  .logo {
+    width: 5vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 75vw;
+    max-width: 75vw;
+  }
+  .subHeading {
+    font-size: 2vw;
+  }
+  .heading {
+    font-size: 3.5vw;
+  }
+  .button {
+    padding: 0.3rem;
+    font-size: 0.85rem;
+  }
+
+  .link {
+    font-size: 0.5rem;
+  }
+  .skills {
+    font-size: 0.7rem;
+  }
+  .addedSkills {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .logo {
+    width: 6.5vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .card {
+    width: 85vw;
+    max-width: 85vw;
+  }
+  .subHeading {
+    font-size: 2.5vw;
+  }
+  .heading {
+    font-size: 3.5vw;
+  }
+  .button {
+    padding: 0.3rem;
+    font-size: 0.85rem;
+  }
+
+  .link {
+    font-size: 0.5rem;
+  }
+  .skills {
+    font-size: 0.7rem;
+  }
+  .addedSkills {
+    font-size: 0.6rem;
+    padding: 0.2rem;
+    border-radius: 1vw;
+  }
+  .hide {
+    width: 2vh;
+  }
+}
+
+.logonstep {
+  position: relative;
+}
+
+.steps,
+.closeIcon {
+  position: absolute;
+  font-size: 0.6rem;
+  vertical-align: middle;
+
+  right: 0;
+  top: 1vh;
+}
+
+.closeIcon {
+  cursor: pointer;
+}
+
+/* steps media query  */
+@media screen and (max-width: 950px) {
+  .steps {
+    font-size: 0.55rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .steps {
+    top: 10;
+    font-size: 0.45rem;
+  }
+}

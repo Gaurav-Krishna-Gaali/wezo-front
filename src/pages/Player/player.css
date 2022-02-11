@@ -1,0 +1,17 @@
+/* .video-js .vjs-default-skin .vjs-big-play-centered {
+  background-color: red;
+  color: red;
+} */
+.vjs-big-play-centered .vjs-big-play-button {
+  background-color: rgba(43, 162, 114, 0.8);
+  font-size: 2em;
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+  line-height: 3em;
+  padding: 0;
+  top: 50%;
+  left: 50;
+  margin-top: -1.5em;
+  margin-left: -1.5em;
+}

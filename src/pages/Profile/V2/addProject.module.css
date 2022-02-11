@@ -1,0 +1,278 @@
+.cnt {
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow-y: auto;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  height: fit-content;
+  width: 750px;
+  max-width: 750px;
+  padding: 0.5rem;
+}
+.topSection {
+  display: flex;
+  align-content: center;
+}
+.title {
+  font-weight: normal;
+  font-family: "Helva";
+  color: #a9a9a9;
+  display: inline;
+  font-size: 1.1rem;
+  /* background-color: red; */
+  align-self: center;
+}
+.closeIcon {
+  background-color: #656565;
+  border-radius: 50%;
+  margin-left: auto;
+  height: 1em;
+  cursor: pointer;
+  align-self: center;
+}
+.closeIcon:hover {
+  background-color: #3f3f3f;
+}
+.field {
+  color: #656565;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+.textarea {
+  width: 100%;
+  resize: none;
+  margin-top: 4px;
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 6px;
+  border-color: #2ba272;
+  color: #a9a9a9;
+  font-size: 1.1rem;
+}
+.textarea:focus {
+  outline: none;
+}
+.textarea::placeholder {
+  font-size: 1rem;
+}
+.desCnt {
+  position: relative;
+  /* background-color: red; */
+}
+.count {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 0.7em;
+  margin-bottom: 0.5rem;
+  margin-right: 0.5rem;
+}
+.tech {
+  margin-top: 4px;
+  border-radius: 4px;
+  width: 100%;
+  border-radius: 4px;
+  padding: 3px;
+  /* height: fit-content; */
+  /* padding: 4px; */
+  border: #2ba272 1px solid;
+  display: flex;
+  flex-flow: wrap;
+
+  font-size: 1rem;
+
+  /* for sugg */
+  position: relative;
+}
+
+.item {
+  background-color: #2ba272;
+  color: #fefefe;
+  padding: 4px 10px;
+  display: flex;
+  width: fit-content;
+  font-size: inherit;
+  border-radius: inherit;
+  margin: 2px;
+  /* flex-wrap: wrap; */
+}
+.item img {
+  height: 1em;
+  display: inline;
+  align-self: center;
+  cursor: pointer;
+  margin-left: 4px;
+}
+.item p {
+  width: fit-content;
+  display: inline;
+  align-self: center;
+}
+
+.input {
+  /* display: inline; */
+
+  justify-self: start;
+  width: 100%;
+  flex: 1;
+
+  background-color: transparent;
+  border: none;
+  margin-left: 4px;
+  color: #a9a9a9;
+  font-family: "Helva";
+  font-weight: normal;
+  font-size: inherit;
+
+  margin: 2px;
+}
+.input:focus {
+  outline: none;
+}
+
+.rest {
+  width: 100%;
+  background-color: violet;
+}
+
+.suggestions {
+  position: absolute;
+  /* top: 95%;
+  width: 100%; */
+  /* top: 0; */
+  left: 0;
+  right: 0;
+  top: 110%;
+
+  background-color: #3f3f3f;
+  /* padding: 10px; */
+  border-radius: 0;
+}
+.suggestionsItem {
+  /* margin: 10px; */
+  border: solid 1px #1d1d1d;
+  /* background-color: red; */
+  padding: 5px;
+  color: #a9a9a9;
+  font-family: "Helva";
+  font-weight: normal;
+}
+/* status */
+.status {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  /* background-color: red; */
+}
+.fieldP {
+  /* align-self: center; */
+  /* background-color: green; */
+  margin-top: 0;
+  margin-right: 10px;
+  display: inline;
+}
+.select {
+  display: inline;
+  /* height: 1em; */
+  font-size: 1em;
+  background-color: #1d1d1d;
+  border: 1px #2ba272 solid;
+  border-radius: 4px;
+  color: #a9a9a9;
+  font-size: 0.9em;
+  padding: 2px;
+}
+.select:focus-visible {
+  border: 1px #2ba272 solid;
+  outline: none;
+}
+/*  */
+
+.btn {
+  font-size: 1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.or {
+  display: flex;
+  justify-content: center;
+  font-size: 01rem;
+  margin: 0 4px;
+}
+.or span {
+  align-self: center;
+}
+.or hr {
+  width: 25%;
+
+  align-self: center;
+}
+
+.gitDiv {
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  /* margin-top: 10px; */
+  /* background-color: red; */
+}
+.gitDiv span {
+  font-size: 1em;
+  align-self: center;
+  color: #656565;
+  /* background-color: green; */
+}
+.notFirstTime {
+  /* background-color: red; */
+  align-self: center;
+}
+.notFirstTime span {
+  color: #2ba272;
+  font-family: "Helva";
+  cursor: pointer;
+}
+.gitDiv img {
+  width: 1em;
+  margin-left: 4px;
+  align-self: center;
+}
+.gitDiv a {
+  font-size: 1em;
+  text-decoration: none;
+  font-family: "Helva";
+  color: #2ba272;
+  align-self: center;
+}
+/* for toast */
+.bodyToast {
+  color: #e74c3c;
+  font-size: 18px;
+  font-weight: normal;
+}
+.containerToast {
+  border: solid 1px #e74c3c;
+  /* background-color: green; */
+}
+.progressBar {
+  background: #e74c3c;
+  /* background: #fefefe; */
+}
+.containerToastSuccess {
+  border: solid 1px #2ba272;
+}
+.progressBarSuccess {
+  background: #2ba272;
+}
+.bodyToastSuccess {
+  color: #2ba272;
+  font-size: 18px;
+  font-weight: normal;
+}

@@ -1,0 +1,96 @@
+.card {
+  width: 700px;
+  max-width: 700px;
+  padding: 0.5rem;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+}
+.loader p {
+  align-self: center;
+  margin-left: 10px;
+  font-size: 0.8rem;
+}
+.header {
+  display: flex;
+}
+.title {
+  font-size: 1.1rem;
+  align-self: center;
+  font-family: "Helva";
+  font-weight: normal;
+}
+.closeIcon {
+  height: 1.1em;
+  align-self: center;
+  margin-left: auto;
+  background-color: #656565;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.closeIcon:hover {
+  background-color: #3f3f3f;
+}
+.top {
+  display: flex;
+  justify-content: flex-end;
+  /* padding-right: 20px; */
+  margin-bottom: 10px;
+}
+
+.select {
+  background-color: transparent;
+  color: #656565;
+  font-size: 0.7rem;
+  border-radius: 5px;
+  padding: 3px;
+  align-self: center;
+  cursor: pointer;
+}
+.select option {
+  background-color: #3f3f3f;
+}
+.label {
+  font-size: 0.8rem;
+  align-self: center;
+  margin-right: 5px;
+}
+.scrollable {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 70vh;
+  padding-right: 10px;
+}
+.repo {
+  /* background-color: salmon; */
+
+  font-weight: normal;
+  margin-bottom: 15px;
+  border: solid 1px #656565;
+  padding: 5px;
+  overflow-x: hidden;
+  cursor: pointer;
+}
+.repo:hover {
+  border-color: #2ba272;
+}
+.titleOfRepo {
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  color: #fefefe;
+  font-family: "Helva";
+  font-weight: normal;
+}
+.disOfRepo {
+  margin-top: 4px;
+  font-size: 1rem;
+  color: #a9a9a9;
+}
+.fork {
+  display: flex;
+}
+.forkIcon {
+  width: 20px;
+  height: 20px;
+}

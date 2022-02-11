@@ -1,0 +1,67 @@
+.backdrop {
+  position: fixed;
+  background-color: rgba(100, 100, 100, 0.5);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.card {
+  margin-top: 10px;
+  margin-top: 25vh;
+  width: 600px;
+  max-width: 600px;
+}
+.topSection {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  /* background-color: green; */
+}
+.topSection img {
+  display: inline;
+  /* background-color: red; */
+  align-self: flex-start;
+  margin-left: auto;
+  cursor: pointer;
+}
+.heading {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  /* background-color: green; */
+  display: inline;
+}
+.input {
+  width: 100%;
+  background-color: inherit;
+  border: solid 2px #2ba272;
+  padding: 6px;
+  border-radius: 3px;
+  color: #fefefe;
+  font-size: 0.8rem;
+  font-family: "HelvaLight";
+  font-weight: normal;
+}
+.input:focus {
+  outline: none;
+}
+.wholeContainer {
+  overflow-y: scroll;
+  max-height: 40vh;
+  margin-top: 1rem;
+}
+
+.gifContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-flow: wrap;
+  align-content: space-between;
+}
+
+.gif {
+  /* margin-right: 4px; */
+  margin-bottom: 4px;
+}

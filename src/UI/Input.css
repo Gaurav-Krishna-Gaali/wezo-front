@@ -1,0 +1,49 @@
+.pwd-container {
+  position: relative;
+  display: inline;
+}
+
+.input {
+  box-sizing: border-box;
+  padding: 0.38rem;
+  border: 0;
+  margin-bottom: 0.7rem;
+  width: 100%;
+  font-family: inherit;
+  border-bottom: 3px solid #ccc;
+  color: #707070;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #2ba272;
+}
+
+.pwd-container img {
+  cursor: pointer;
+  position: absolute;
+  width: 20px;
+  right: 0.15rem;
+  top: 0.15rem;
+}
+
+@media screen and (max-width: 400px) {
+  .input {
+    font-size: 0.8rem;
+    padding-left: 0.2rem;
+    padding-bottom: 0.2rem;
+    margin-bottom: 0.2rem;
+    margin-top: 0.1rem;
+  }
+  .pwd-container img {
+    width: 18px;
+    top: 0.3rem;
+  }
+}
+
+.input-dark-mode {
+  color: #fff;
+
+  background-color: #1d1d1d;
+  border-bottom: 3px solid rgb(199, 199, 199);
+}

@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: HelvaLight;
+  src: url("./fonts/light.ttf");
+}
+
+@font-face {
+  font-family: HelvaBold;
+  src: url("./fonts/bold.ttf");
+}
+
+@font-face {
+  font-family: Helva;
+  src: url("./fonts/Helvetica.ttf");
+}
+
+html {
+  font-family: "HelvaLight", sans-serif;
+  color: #656565;
+}
+
+body {
+  margin: 0;
+  background-color: #3f3f3f;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border: 7px solid #656565;
+  box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1cc481;
+  height: 13px;
+}

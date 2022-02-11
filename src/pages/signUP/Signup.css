@@ -1,0 +1,75 @@
+.signupSVG {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4%;
+}
+
+/* .form input {
+  font: inherit;
+  padding: 0.25rem;
+  border: none;
+  border-bottom: 3px solid #ccc;
+  flex: 1;
+  margin: 0.6rem 0.4rem 0rem;
+} */
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.toOther {
+  font: inherit;
+  font-size: 0.7rem;
+  display: inline;
+  margin-left: 0.6rem;
+  margin-top: 0.2rem;
+}
+
+.link {
+  font-size: 0.7rem;
+  display: inline;
+  color: #2ba272;
+  font-weight: bold;
+}
+
+.toOther,
+.link {
+  text-align: center;
+}
+
+.toOther-dark-mode {
+  color: white;
+}
+
+.main-heading {
+  color: #707070;
+  text-align: center;
+  font-family: "HelvaBold";
+}
+.main-heading-dark-mode {
+  color: white;
+}
+
+.radio {
+  width: 0.9rem;
+  stroke: "black";
+  stroke-width: "10";
+}
+
+.radio-fill {
+  width: 0.75rem;
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    font-size: 1rem;
+  }
+  .toOther,
+  .link {
+    font-size: 0.6rem;
+  }
+}

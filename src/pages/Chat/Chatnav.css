@@ -1,0 +1,276 @@
+.container {
+  display: flex;
+}
+
+.main {
+  flex-direction: 1;
+  overflow: auto;
+}
+
+.Chatnav {
+  color: white;
+  background: #1d1d1d;
+  width: 418px;
+  /* overflow: scroll; */
+  height: 100vh;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.sidebar__inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  /* margin-left: 50px; */
+  /* align-items: space-evenly; */
+}
+
+.sidebar__inputs > input {
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  background: #161819;
+  border-radius: 10px;
+  padding: 12px;
+  outline-width: 0;
+  color: white;
+  /* margin: 5px; */
+  margin-right: 15px;
+  width: 320px;
+}
+
+.profie__info {
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  /* width: 360px; */
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-right: 20px;
+  height: 100px;
+  background: #27292e;
+}
+
+.chat > p {
+  opacity: 75%;
+}
+
+.profie__info > img {
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.profie__info > h2 {
+  font-size: 28px;
+}
+.chat_header {
+  margin-right: 30px;
+  margin-left: 25px;
+}
+.chat_header > h2 {
+  margin-top: 10px;
+  cursor: cell;
+}
+.chat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.chat > p {
+  margin-left: 10px;
+}
+.chat_status {
+  height: 20px;
+  color: greenyellow;
+}
+.profile {
+  height: 50px;
+  width: 50px;
+
+  height: 45px;
+  width: 45px;
+
+  height: 45px;
+  width: 45px;
+}
+
+/* .back_btn {
+  background: transparent;
+  border-radius: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+} */
+
+.accordian-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-right: 260px;
+  /* margin-left: 20px; */
+}
+.accordianChat-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-right: 305px;
+  /* margin-left: 20px; */
+}
+
+.accordianicons {
+  height: 34px;
+  width: 34px;
+  color: #4a4949;
+  cursor: pointer;
+}
+
+.accordian-header > h3 {
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #4a4949;
+}
+.accordianChat-header > h3 {
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #4a4949;
+}
+
+.accordian-body {
+  overflow-y: auto;
+}
+
+.accordian-body {
+  /* display: grid; */
+  /* display: inline-block; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 40px;
+  cursor: pointer;
+  grid-gap: 10px;
+}
+.accordianChat-body {
+  /* display: grid; */
+  /* display: inline-block; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+  cursor: pointer;
+  grid-gap: 10px;
+}
+
+.channel__items {
+  font-size: 22px;
+  padding: 10px;
+}
+
+.channel__items:hover {
+  background: #161819;
+  border-radius: 10px;
+}
+.addChannels {
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.addChats {
+  align-items: center;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+
+.addChannels:hover {
+  background-color: #161819;
+  border-radius: 10px;
+}
+
+.addChats:hover {
+  background-color: #161819;
+  border-radius: 10px;
+}
+
+.addIcon {
+  height: 30px;
+  width: 30px;
+}
+
+.addChannels > div {
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+.addChats > div {
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+.sign {
+  margin-left: 40px;
+}
+
+.Channels__accordian {
+  /* margin-left: 10px; */
+}
+
+.chat__items {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
+  margin-left: 20px;
+  transition: 100ms ease-in-out;
+}
+
+.chat__items:hover {
+  padding: 10px;
+  border-radius: 10px;
+  background: #161819;
+}
+.chat__items > img {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.namebox {
+  /* margin-left: 20px;
+  margin-top: 5px; */
+  margin-left: 15px;
+  position: relative;
+  width: 100%;
+}
+
+.namebox > h3 {
+  display: flex;
+  padding: 5px;
+  align-self: flex-start;
+}
+
+.namebox > small {
+  position: absolute;
+  top: 5px;
+  padding: 5px;
+  right: 0;
+}
+
+.addChats {
+  margin-left: 30px;
+}

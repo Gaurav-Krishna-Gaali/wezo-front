@@ -1,0 +1,187 @@
+.project {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  /* overflow-x: auto; */
+  overflow: hidden;
+}
+
+.content {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.title,
+.no {
+  text-transform: capitalize;
+  /* background-color: brown; */
+  margin: 0;
+  /* color: #fefefe; */
+  color: #feefee;
+  font-family: "HelvaBold";
+  font-weight: normal;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+.description {
+  font-size: 1rem;
+  color: #a9a9a9;
+  margin-bottom: 5px;
+}
+.statusDiv {
+  display: flex;
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+.statusP {
+  font-family: "Helva";
+  color: #fefefe;
+}
+.statusSpan {
+  color: #a9a9a9;
+  font-family: "HelvaLight";
+}
+.statusIcon {
+  height: 1.2em;
+  /* background-color: red; */
+  align-self: center;
+}
+.tech {
+  font-size: 1rem;
+  font-family: "Helva";
+  color: #feefee;
+  margin-bottom: 5px;
+}
+.techContainer {
+  display: flex;
+  width: fit-content;
+  max-width: 100%;
+  overflow-x: auto;
+  padding-bottom: 5px;
+  /* margin-bottom: 5px; */
+  /* background-color: red; */
+
+  /* overflow-y: hidden; */
+  /* justify-content: stretch; */
+}
+.techCard {
+  min-width: 30px;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  background-color: #feefee;
+  padding: 4px;
+  display: flex;
+  border-radius: 4px;
+}
+
+/* reactions */
+/* reactions */
+.reactionsDiv {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  justify-content: space-between;
+  /* display: block; */
+  /* background-color: red; */
+  /* margin-bottom: 10px; */
+}
+
+/* these are for upvote and downvote*/
+.reaction {
+  display: flex;
+
+  /* background-color: green; */
+}
+
+/* this applies to upvote, more images */
+.reactionsDiv img {
+  width: 24px;
+  padding: 2px;
+  /* background-color: gold; */
+  height: 24px;
+}
+
+.reaction img {
+  /* background-color: red; */
+  align-self: center;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  margin-right: 2px;
+}
+
+.upvote:hover,
+.downvote:hover {
+  background-color: #3f3f3f;
+  border-radius: 50%;
+}
+
+.upvote:hover + .reactTxt {
+  color: #2ba272;
+}
+.downvote:hover + .reactTxt {
+  color: #f91880;
+}
+
+.reactionsDiv p {
+  /* background-color: gainsboro; */
+  font-size: 14px;
+  color: #a9a9a9;
+  align-self: center;
+  margin-right: 20px;
+}
+.downvote {
+  transform: rotate(180deg);
+}
+.reactLink {
+  text-decoration: none;
+  font-size: 14px;
+  align-self: center;
+  font-family: "Helva";
+  /* background-color: red; */
+  cursor: pointer;
+}
+.moreMenu {
+  display: flex;
+  /* background-color: gray; */
+  align-items: center;
+  position: relative;
+}
+
+.moreIcon {
+  transform: rotate(90deg);
+  cursor: pointer;
+  /* align-self: center; */
+}
+
+.floatingMenu {
+  position: absolute;
+  right: 100%;
+  bottom: 10%;
+  padding: 3px;
+  background-color: #1d1d1d;
+  border-radius: 3px;
+
+  box-shadow: 0px 0px 3px 1px rgba(255, 255, 255, 0.48);
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(255, 255, 255, 0.48);
+  -moz-box-shadow: 0px 0px 3px 1px rgba(255, 255, 255, 0.48);
+}
+
+.menuItem {
+  display: flex;
+  cursor: pointer;
+  width: 100px;
+  justify-content: start;
+  align-items: center;
+}
+.menuItem:hover {
+  background-color: #3f3f3f;
+  border-radius: inherit;
+}
+
+.menuItem img {
+  width: 20px;
+  /* background-color: red; */
+  padding: 3px;
+  justify-self: start;
+}

@@ -1,0 +1,27 @@
+.topArea {
+  background-color: #1d1d1d;
+  /* padding-bottom: 10px; */
+}
+
+.subNav {
+  /* background-color: #1d1d1d; */
+  display: flex;
+  justify-content: space-between;
+
+  padding: 10px;
+  border-bottom: 1px solid #656565;
+}
+
+.subNav a {
+  font-family: "HelvaLight";
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.active {
+  /* background-color: red; */
+  color: #a9a9a9;
+  /* font-family: "HelvaBold"; */
+  font-weight: normal;
+  border-bottom: 2px solid #a9a9a9;
+}

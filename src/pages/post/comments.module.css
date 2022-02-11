@@ -1,0 +1,283 @@
+.comment {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  grid-template-rows: 1fr auto;
+  /* background-color: red; */
+}
+
+.profile {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  /* background-color: red; */
+  justify-self: flex-end;
+}
+.profile img {
+  border-radius: 50%;
+  max-width: 85%;
+}
+
+.content {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  /* background-color: royalblue; */
+  color: #fefefe;
+}
+.name {
+  text-transform: capitalize;
+  font-size: 16px;
+  align-self: center;
+  font-family: "HelvaBold";
+  font-weight: normal;
+}
+
+.dot {
+  font-size: 16px;
+  margin: 0 5px;
+  /* background-color: red; */
+}
+.userID {
+  /* background-color: saddlebrown; */
+  font-size: 14px;
+  align-self: center;
+  margin-left: 0;
+  color: #a9a9a9;
+  font-family: "HelvaLight";
+  font-weight: normal;
+}
+.postDate {
+  align-self: center;
+  font-size: 12px;
+  margin-left: auto;
+  color: #a9a9a9;
+  font-family: "HelvaLight";
+  font-weight: normal;
+}
+.message {
+  /* background-color: red; */
+  margin-top: 2px;
+}
+.actualComment {
+  font-size: 18px;
+  font-family: "HelvaLight";
+  line-height: 1.2;
+  color: #fefefe;
+  font-size: 18px;
+  /* min-height: 30px; */
+}
+
+.emoji {
+  /* this goes into P section */
+  max-height: 100%;
+  height: 20px;
+}
+
+.imageSection {
+  margin-top: 10px;
+  border: 2px solid #2ba272;
+  border-radius: 8px;
+  /* height: fit-content; */
+  /* max-height: 400px; */
+  height: 300px;
+  margin-bottom: 10px;
+
+  /* background-color: rgb(0, 0, 0); */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #2ba272;
+}
+.imageSection img {
+  width: 100%;
+  margin: 0;
+  display: block;
+  object-fit: cover;
+  border-radius: inherit;
+}
+.imageSection .gif {
+  border-radius: inherit;
+  object-fit: contain;
+}
+
+.gifSection {
+  background-color: #000;
+}
+
+/* image viewer */
+.imageSection {
+  margin-top: 0.5rem;
+  position: relative;
+  /* background-color: red; */
+}
+.image {
+  width: 100%;
+  max-width: 100%;
+}
+.dotContainer {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* background-color: green; */
+  width: 100%;
+  bottom: 5%;
+}
+
+.dott {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 2px;
+  border: 2px solid #fefefe;
+  background-color: #fefefe;
+  cursor: pointer;
+}
+.dotActive {
+  background-color: #3f3f3f;
+}
+
+.arrow {
+  margin: 5px;
+  position: absolute;
+  cursor: pointer;
+  opacity: 60%;
+  bottom: 45%;
+  max-width: 20px;
+}
+
+.leftArrow {
+  left: 0;
+}
+.rightArrow {
+  right: 0;
+  transform: rotate(180deg);
+}
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+/* reactions */
+.reactionsDiv {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-top: 4px;
+
+  /* background-color: red; */
+}
+
+/* these are for upvote and downvote*/
+.reaction {
+  display: flex;
+  /* background-color: red; */
+}
+
+/* this applies to upvote, more images */
+.reactionsDiv img {
+  width: 24px;
+  padding: 2px;
+  /* background-color: gold; */
+  height: 24px;
+}
+
+.reaction img {
+  /* background-color: red; */
+  align-self: center;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  margin-right: 2px;
+}
+
+.upvote:hover,
+.downvote:hover {
+  background-color: #3f3f3f;
+  border-radius: 50%;
+}
+
+.upvote:hover + .reactTxt {
+  color: #2ba272;
+}
+.downvote:hover + .reactTxt {
+  color: #f91880;
+}
+
+.reactionsDiv p {
+  /* background-color: gainsboro; */
+  font-size: 14px;
+  color: #a9a9a9;
+  align-self: center;
+  margin-right: 20px;
+}
+
+.moreMenu {
+  cursor: pointer;
+  margin-left: auto;
+  position: relative;
+}
+.reactionSection .moreMenu p {
+  margin-right: 0;
+}
+.moreMenu .moreIcon {
+  transform: rotate(90deg);
+  padding: 4px;
+}
+
+.floatingMenu {
+  position: absolute;
+  right: 100%;
+  bottom: 0;
+  padding: 3px;
+  background-color: #1d1d1d;
+  border-radius: 3px;
+
+  box-shadow: 0px 0px 3px 1px rgba(255, 255, 255, 0.48);
+  -webkit-box-shadow: 0px 0px 3px 1px rgba(255, 255, 255, 0.48);
+  -moz-box-shadow: 0px 0px 3px 1px rgba(255, 255, 255, 0.48);
+}
+.menuItem {
+  display: flex;
+  cursor: pointer;
+  width: 100px;
+  justify-content: start;
+}
+.menuItem:hover {
+  background-color: #3f3f3f;
+  border-radius: inherit;
+}
+
+.menuItem img {
+  width: 20px;
+  /* background-color: red; */
+  padding: 3px;
+}
+
+.downvote {
+  transform: rotate(180deg);
+}
+
+/* this is replies text */
+.replies {
+  cursor: pointer;
+}
+
+.hr {
+  margin: 10px 0;
+  opacity: 0.2;
+}

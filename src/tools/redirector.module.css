@@ -1,0 +1,9 @@
+.bodyToast {
+  color: #e74c3c;
+  font-size: 18px;
+  font-weight: normal;
+}
+.containerToast {
+  border: solid 1px #e74c3c;
+  /* background-color: green; */
+}

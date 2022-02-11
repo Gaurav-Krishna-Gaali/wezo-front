@@ -1,0 +1,19 @@
+.backDrop {
+  position: absolute;
+  background-color: #1d1d1d;
+  width: 100%;
+  z-index: 2;
+}
+
+.card {
+  text-align: center;
+}
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  z-index: 3;
+  text-align: center;
+}

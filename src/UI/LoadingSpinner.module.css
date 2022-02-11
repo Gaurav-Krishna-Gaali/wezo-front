@@ -1,0 +1,54 @@
+.backdrop {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 4;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.mess {
+  display: block;
+  font-family: "HelvaLight";
+
+  width: 100%;
+}
+
+.loadingMessage {
+  display: block;
+}
+
+#container > div {
+  display: inline-block;
+}
+#container {
+  text-align: center;
+  margin: 45vh auto;
+  width: 40%;
+}
+
+.dark {
+  background-color: #1f1f1f;
+  color: #fefefe;
+}
+.normal {
+  color: #656565;
+}
+
+.invalid {
+  color: red;
+}
+
+.linkStyle {
+  color: #2ba272;
+  cursor: pointer;
+  text-decoration: underline;
+  font-style: italic;
+}

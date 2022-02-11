@@ -1,0 +1,32 @@
+.radio-txt {
+  display: inline-block;
+  font-family: inherit;
+  font-size: 0.65rem;
+  margin-top: 0.125rem;
+  margin-bottom: 0.125rem;
+  margin-left: 0.2rem;
+}
+.radio {
+  width: 0.9rem;
+  display: inline-block;
+}
+.div {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 400px) {
+  .radio {
+    width: 0.7rem;
+  }
+
+  .radio-txt {
+    font-size: 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.1rem;
+  }
+}
+
+.radio-txt-dark-mode {
+  color: #fff;
+}

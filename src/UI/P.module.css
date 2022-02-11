@@ -1,0 +1,31 @@
+.para {
+  font-size: 1rem;
+  /* display: inline; */
+}
+.emoji {
+  height: 0.9rem;
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+  margin-bottom: -0.15rem;
+  display: inline;
+  height: 1em;
+  vertical-align: text-top;
+}
+
+.paraDiv {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  /* text-decoration: none; */
+  color: #656565;
+  font-family: "HelvaBold";
+}
+a:visited {
+  color: #656565;
+  font-family: "HelvaBold";
+}
+.dark p {
+  color: "#fefefe";
+}

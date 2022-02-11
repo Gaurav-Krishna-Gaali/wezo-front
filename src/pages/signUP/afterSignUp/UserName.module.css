@@ -1,0 +1,108 @@
+.logo {
+  width: 3vw;
+}
+.heading {
+  font-family: "HelvaBold";
+  font-size: 3vw;
+  text-align: left;
+  color: #3f3f3f;
+}
+
+.HeadingDark {
+  color: #fefefe;
+}
+
+.subHeading {
+  font-family: "HelvaLight";
+  font-size: 1.5vw;
+  text-align: left;
+  margin-top: 0.2rem;
+  margin-bottom: 1rem;
+}
+.customCard {
+  width: 50vw;
+  max-width: 50vw;
+  text-align: center;
+}
+
+.customInput {
+  margin-bottom: 0.1vh;
+}
+
+.logonstep {
+  position: relative;
+}
+
+.steps {
+  position: absolute;
+  font-size: 0.6rem;
+  vertical-align: middle;
+
+  right: 0;
+  top: 1vh;
+}
+
+@media screen and (max-width: 950px) {
+  .steps {
+    font-size: 0.55rem;
+  }
+  .btn {
+    padding: 0.6rem;
+  }
+}
+@media screen and (max-width: 850px) {
+  .logo {
+    width: 3.5vw;
+  }
+}
+@media screen and (max-width: 750px) {
+  .customCard {
+    width: 65vw;
+    max-width: 65vw;
+  }
+  .logo {
+    width: 4.5vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .customCard {
+    width: 70vw;
+    max-width: 70vw;
+  }
+  .subHeading {
+    font-size: 2vw;
+  }
+  .heading {
+    font-size: 3.5vw;
+  }
+  .logo {
+    width: 6vw;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .subHeading {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .customCard {
+    width: 85vw;
+    max-width: 85vw;
+  }
+  .heading {
+    font-size: 4.5vw;
+  }
+  .subHeading {
+    font-size: 3vw;
+  }
+  .logo {
+    width: 8vw;
+  }
+  .steps {
+    top: 10;
+    font-size: 0.45rem;
+  }
+}

@@ -1,0 +1,57 @@
+.sidebar {
+  background: #1d1d1d;
+  width: 335px;
+  color: #fff;
+  padding: 15px;
+  padding-left: 20px;
+}
+
+.header {
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+}
+
+.righth3 {
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 400;
+  font-style: italic;
+  /* border-bottom: 1px solid white; */
+  margin-bottom: 5px;
+}
+
+.rightp {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.photo {
+  margin: 5px;
+}
+.photo > img {
+  height: 90px;
+  border-radius: 10px;
+  align-items: center;
+  margin: 5px;
+  width: 90px;
+}
+.media {
+  margin-top: 15px;
+}
+
+.links {
+}
+
+.links > a {
+  display: flex;
+  font-weight: 300;
+  flex-direction: column;
+  padding: 8px;
+  color: #fff;
+}
+
+.links > a :hover {
+  padding: 10px;
+  background: #fff;
+}

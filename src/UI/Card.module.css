@@ -1,0 +1,24 @@
+.card {
+  padding: 1rem;
+  margin: 3rem auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: white;
+  width: 50%;
+  max-width: 20rem;
+}
+
+.card-dark-mode {
+  background-color: #1d1d1d;
+}
+
+@media screen and (max-width: 660px) {
+  .card {
+    width: 90%;
+  }
+}
+
+.card-width-80 {
+  width: 80%;
+  max-width: 80%;
+}

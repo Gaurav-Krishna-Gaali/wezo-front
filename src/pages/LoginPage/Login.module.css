@@ -1,0 +1,10 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form input:focus {
+  outline: none;
+  border-color: #2ba272;
+}

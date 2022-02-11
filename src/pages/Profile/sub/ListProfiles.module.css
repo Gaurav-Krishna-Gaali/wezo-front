@@ -1,0 +1,107 @@
+.mainDiv {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(63, 63, 63, 0.6);
+  z-index: 2;
+}
+.mainDiv hr {
+  margin-top: 10px;
+}
+
+.card {
+  width: 36vw;
+  max-width: 512px;
+  max-height: 600px;
+  margin-top: 0;
+  margin-top: 10vh;
+  opacity: 1;
+}
+.topSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.title {
+  font-size: 1.4rem;
+  display: inline;
+}
+.closeIcon {
+  top: 0;
+  right: 0;
+
+  padding-right: inherit;
+  cursor: pointer;
+}
+
+.list {
+  height: 60vh;
+  overflow-y: scroll;
+  margin-top: 2vh;
+}
+
+.spinner {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.spinner2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-self: center;
+  align-self: center;
+}
+
+/* media quries */
+@media screen and (max-width: 1430px) {
+  .card {
+    width: 38vw;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .card {
+    width: 40vw;
+  }
+  .title {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .card {
+    width: 45vw;
+  }
+  .title {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    width: 55vw;
+  }
+  .title {
+    font-size: 1rem;
+  }
+  .closeIcon {
+    width: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 65vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card {
+    width: 75vw;
+  }
+}

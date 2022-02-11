@@ -1,0 +1,46 @@
+.replyList {
+  /* padding: 20px; */
+  /* margin-top: 15px; */
+  /* resize: horizontal; */
+  /* background-color: red; */
+}
+
+.noReply {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.repliesScroll {
+  margin-top: 10px;
+  overflow-y: auto;
+  height: fit-content;
+  max-height: 500px;
+  padding: 10px;
+  padding-right: 10px;
+  /* background-color: #1d1d1d; */
+  /* border: solid wheat 2px; */
+  border-radius: 8px;
+  /* background-color: #282828; */
+  background-color: #252525;
+  box-shadow: -10px 1px 80px -6px rgba(30, 30, 30, 0.63) inset;
+  -webkit-box-shadow: -10px 1px 80px -6px rgba(30, 30, 30, 0.63) inset;
+  -moz-box-shadow: -10px 1px 80px -6px rgba(30, 30, 30, 0.63) inset;
+}
+.loader {
+  display: flex;
+  padding: 20px;
+
+  /* background-color: red; */
+  border-radius: 8px;
+  /* background-color: #282828; */
+  background-color: #252525;
+  box-shadow: -10px 1px 80px -6px rgba(30, 30, 30, 0.63) inset;
+  -webkit-box-shadow: -10px 1px 80px -6px rgba(30, 30, 30, 0.63) inset;
+  -moz-box-shadow: -10px 1px 80px -6px rgba(30, 30, 30, 0.63) inset;
+  justify-content: center;
+}
+.end {
+  padding: 0;
+  font-size: 20px;
+}

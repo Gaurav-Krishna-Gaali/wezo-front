@@ -1,0 +1,10 @@
+v1 signup page done with best UX
+v2 login email verification on signup done
+v3 done login signup forgot password
+v4 done above all and updated to designs given by amitesh also dark mode
+v5 user signup funnel completed with add profile, username, skills, bio
+v6 complete profile page
+v7 profile page done -> follow, edit done before theia
+v8 posts front end almost done
+v9
+v10 remade profile added navbar

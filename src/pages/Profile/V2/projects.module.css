@@ -1,0 +1,73 @@
+.cnt {
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow-y: auto;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 0;
+  padding: 0.5rem;
+  margin-top: 8px;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+.title {
+  font-size: 1.1rem;
+
+  align-self: center;
+}
+.topDiv {
+  display: flex;
+}
+.topDiv img {
+  height: 1em;
+  margin-left: auto;
+}
+.noProjectsH1 {
+  font-size: 1em;
+  vertical-align: middle;
+  align-self: center;
+  margin-left: auto;
+  cursor: pointer;
+}
+.noProjects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.noProjects img {
+  max-width: 150px;
+  /* background-color: red; */
+}
+.noProjects h4 {
+  display: inline;
+  align-self: center;
+  margin-left: 3px;
+  font-size: 1rem;
+  font-family: "HelvaLight";
+  font-weight: normal;
+}
+/* project patches */
+.projectsCnt {
+  padding-top: 10px;
+}
+.hr {
+  border-color: #3f3f3f;
+  margin-bottom: 15px;
+}
+.showMoreDiv {
+  display: flex;
+  justify-content: center;
+  /* background-color: aliceblue; */
+  align-items: center;
+  cursor: pointer;
+}

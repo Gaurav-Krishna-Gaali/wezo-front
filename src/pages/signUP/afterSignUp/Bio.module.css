@@ -1,0 +1,186 @@
+.logo {
+  width: 3vw;
+}
+
+.card {
+  width: 50vw;
+  max-width: 50vw;
+  text-align: center;
+}
+.heading {
+  font-family: "HelvaBold";
+  font-size: 3vw;
+  text-align: left;
+  color: #3f3f3f;
+}
+.HeadingDark {
+  color: #fefefe;
+}
+
+.subHeading {
+  font-family: "HelvaLight";
+  font-size: 1.5vw;
+  text-align: left;
+  margin-top: 0.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.content {
+  position: relative;
+  margin-top: 0.5rem;
+}
+
+.bio {
+  width: 100%;
+  overflow: hidden;
+  padding: 0.5vh;
+  resize: none;
+  border-radius: 0.2rem;
+  background-color: transparent;
+  border-color: #2ba272;
+}
+.bio-dark {
+  color: #fefefe;
+}
+.bio::placeholder {
+  font-size: 1vw;
+  padding-top: 0.3vh;
+  padding-left: 0.5vw;
+}
+
+.bio:focus {
+  outline: none !important;
+  border: 1px solid #2ba272;
+}
+
+.count {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  padding-right: 0.3rem;
+  padding-bottom: 0.3rem;
+  font-size: 0.7rem;
+}
+
+.link {
+  font-size: 0.7rem;
+  text-decoration: none;
+  display: inline;
+  color: #2ba272;
+  font-weight: bold;
+}
+
+.logonstep {
+  position: relative;
+}
+
+.steps {
+  position: absolute;
+  font-size: 0.6rem;
+  vertical-align: middle;
+
+  right: 0;
+  top: 1vh;
+}
+
+@media screen and (max-width: 1024px) {
+  .bio {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .count {
+    font-size: 0.6rem;
+  }
+  .button {
+    padding: 1vh;
+    font-size: 0.7rem;
+    margin-top: 0.3rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .card {
+    width: 60vw;
+    max-width: 60vw;
+  }
+  .link {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .logo {
+    width: 6vw;
+  }
+  .card {
+    width: 75vw;
+    max-width: 75vw;
+    padding: 3vw;
+  }
+  .heading {
+    font-size: 3vw;
+  }
+  .subHeading {
+    margin-top: 0.2rem;
+    font-size: 1.6vw;
+  }
+  .bio {
+    font-size: 2vw;
+  }
+  .bio::placeholder {
+    font-size: 0.3rem;
+  }
+  .count {
+    font-size: 0.3rem;
+  }
+  .content {
+    margin-top: 0.1rem;
+  }
+  .button {
+    padding: 0.6vh;
+    font-size: 2.5vw;
+    margin-top: 0.8vh;
+    border-radius: 0.6vw;
+  }
+  .link {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .card {
+    width: 85vw;
+    max-width: 85vw;
+  }
+  .link {
+    font-size: 0.4rem;
+    margin-top: 0;
+  }
+  .button {
+    margin-bottom: 0;
+  }
+  .heading {
+    font-size: 4vw;
+  }
+  .subHeading {
+    font-size: 2.5vw;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* steps media query  */
+@media screen and (max-width: 950px) {
+  .steps {
+    font-size: 0.55rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .steps {
+    top: 10;
+    font-size: 0.45rem;
+  }
+}

@@ -1,0 +1,15 @@
+.toastBody {
+  font-family: "HelvaLight";
+  /* background-color: green; */
+  color: #2ba272;
+  font-size: 20px;
+}
+.toastClass {
+  background-color: #feff;
+  border: 2px solid #2ba272;
+}
+.toastContainer {
+  /* background-color: #656565; */
+  /* display: flex; */
+  width: fit-content;
+}

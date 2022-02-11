@@ -1,0 +1,104 @@
+.navWrapper {
+  /* width: 100%; */
+  max-width: inherit;
+  /* background-color: #f80f0f; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.navContainer {
+  position: fixed;
+  margin-left: auto;
+  margin-right: 20px;
+
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  /* background-color: #fff; */
+}
+.logo h1,
+.logo img {
+  display: inline-block;
+  font-family: "HelvaBold";
+  color: #a9a9a9;
+}
+
+.logo img {
+  width: 35px;
+  margin-right: 10px;
+}
+
+.logo {
+  margin-top: 20px;
+  /* margin-left: -50px; */
+  margin-bottom: 50px;
+  /* background-color: red; */
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: "HelvaLight";
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.navItem {
+  cursor: pointer;
+  color: #a9a9a9;
+  text-decoration: inherit;
+  font-family: "HelvaLight";
+  font-weight: normal;
+
+  font-size: 16px;
+
+  margin-bottom: 10px;
+  border-radius: 40px;
+
+  /* background-color: gold; */
+}
+.navItem:hover > .inside {
+  background-color: #353535;
+  border-radius: 10px;
+}
+
+.inside {
+  vertical-align: middle;
+  display: flex;
+  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: fit-content;
+  align-items: center;
+}
+.navLink {
+  /* font-family: "Helva"; */
+  /* font-weight: bold; */
+  text-decoration: none;
+
+  /* font-size: 24px; */
+  /* background-color: red; */
+}
+.inside a {
+  color: #a9a9a9;
+}
+.inside:hover {
+  background-color: #353535;
+  border-radius: 10px;
+}
+.navLink .navItem {
+  display: inline;
+  font-size: 22px;
+}
+.navItem img {
+  width: 30px;
+  height: 30px;
+  display: inline;
+  margin-right: 20px;
+}
+.btn {
+  /* align-items: flex-end; */
+  font-size: 20px;
+  margin-top: auto;
+  margin-bottom: 10px;
+  padding: 15px;
+}
